@@ -53,50 +53,7 @@ graph TD
 
 ---
 
-## 📊 Base de Conhecimento (Dados do Projeto)
 
-O agente baseia-se em quatro fontes de dados principais para contextualizar as respostas:
-
-### 1. Perfil do Investidor (`perfil_investidor.json`)
-
-```json
-{
-  "nome": "João Silva",
-  "idade": 32,
-  "profissao": "Analista de Sistemas",
-  "renda_mensal": 5000.00,
-  "perfil_investidor": "moderado",
-  "objetivo_principal": "Construir reserva de emergência",
-  "patrimonio_total": 15000.00,
-  "reserva_emergencia_atual": 10000.00,
-  "aceita_risco": false,
-  "metas": [
-    {
-      "meta": "Completar reserva de emergência",
-      "valor_necessario": 15000.00,
-      "prazo": "2026-06"
-    }
-  ]
-}
-
-```
-
-### 2. Transações Recentes (`transacoes.csv`)
-
-| Data | Categoria | Valor | Tipo |
-| --- | --- | --- | --- |
-| 2024-01-10 | Lazer | 150.00 | Despesa |
-| 2024-01-12 | Salário | 5000.00 | Receita |
-| 2024-01-15 | Educação | 300.00 | Despesa |
-
-### 3. Histórico de Atendimento (`historico_atendimento.csv`)
-
-| Data | Assunto | Resumo |
-| --- | --- | --- |
-| 2023-12-01 | Reserva de Emergência | Explicado o conceito de 6 meses de gastos. |
-| 2023-12-15 | Juros Compostos | Analogia da bola de neve aplicada à reserva. |
-
----
 
 ## 🛡️ Segurança e Anti-Alucinação
 
@@ -106,8 +63,6 @@ O agente baseia-se em quatro fontes de dados principais para contextualizar as r
 * NÃO acessa senhas ou dados bancários reais.
 * NÃO substitui um consultor financeiro certificado (CFA/Ancord).
 * Se não houver dados, o agente admite o desconhecimento.
-
-
 
 ---
 
