@@ -42,5 +42,4 @@ O diferencial do Edu é a **segurança e a ética**. Ele possui guardrails rigor
 
 > Clique no link abaixo para assistir à apresentação completa do projeto:
 
-[Assista ao Pitch no YouTube / Loom / Drive](#) 
-*(link)*
+https://youtu.be/9JJ0-SB9cAY?si=WWLyzy1rbLX9Kz8w
